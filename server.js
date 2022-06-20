@@ -15,13 +15,18 @@ var onAboutUs=function(req, res){
     res.send("Chief Mentor :Amit Pisal");
 };
 var onDefault=function(req, res){
-    res.send("<h1><div style="color: rgb(252,0,0);">Dear Mummy and Maushi</div></h1>"+
+    res.send("<h1>Dear Mummy and Maushi</h1>"+
               "<hr/>"+
               "<ul>"+
-                    " <li><div style="color: rgb(107, 52, 211);">Mummy and Maushi, throughout the life, your valuable advices have led me safely. <br />Your words are my guidance, and your love is the most precious item to me. <br />Now, this is the opportunity to thank you for everything U did for me.</div></li>"+
-                    " <li><div style="color: rgb(214, 47, 172);">To the woman that always brought the best in me <br />or at least saw the best in me regardless of what I did.</div></li>"+
-                    " <li><div style="color: rgb(0, 91, 173);">My amazing mother and Maushi,<br/>Your birthday deserves all the amazing colorsof celebration. <br />You both are the best mother's in all the land </div></li>"+
-                    " <li><br /><h2><div style="color: rgb(174, 0, 255);">Happy Birthday Dear Lovely Ladies</div><h2></li>"+
+                    " <li>Mummy and Maushi, throughout the life, your valuable advices have led me safely. 
+					Your words are my guidance, and your love is the most precious item to me. 
+					Now, this is the opportunity to thank you for everything U did for me.</li>"+
+                    " <li>To the woman that always brought the best in me or 
+					at least saw the best in me regardless of what I did.</li>"+
+                    " <li>My amazing mother and Maushi,
+					Your birthday deserves all the amazing colorsof celebration. 
+					You both are the best mother's in all the land </li>"+
+                    " <li><h2>Happy Birthday Dear Lovely Ladies<h2></li>"+
              "</ul>");
 };
 app.get("/",onDefault);  // Request handler functions are registered
